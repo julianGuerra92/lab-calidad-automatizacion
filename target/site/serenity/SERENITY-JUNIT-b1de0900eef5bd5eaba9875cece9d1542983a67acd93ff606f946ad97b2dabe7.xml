@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="4" name="Agregar items al carrito de compras" skipped="0" tests="4" time="0.69" timestamp="2025-07-01 11:14:51"><testcase name="Agregar un producto al carrito"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject
+co.edu.udea.calidad.pruebas_automatizacion.stepdefinitions.AgregarProductoStepDefinition.queEstoyEnLaPáginaPrincipalDeLaTienda(AgregarProductoStepDefinition.java:41)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase><testcase name="Agregar unidades negativas al carrito"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject
+co.edu.udea.calidad.pruebas_automatizacion.stepdefinitions.AgregarProductoStepDefinition.queEstoyEnLaPáginaPrincipalDeLaTienda(AgregarProductoStepDefinition.java:41)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase><testcase name="Verificar el total del carrito"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject
+co.edu.udea.calidad.pruebas_automatizacion.stepdefinitions.AgregarProductoStepDefinition.queEstoyEnLaPáginaPrincipalDeLaTienda(AgregarProductoStepDefinition.java:41)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase><testcase name="Verificar el total del carrito vacío"><failure message="Undefined default URL for page object PageObject" type="java.lang.AssertionError">Undefined default URL for page object PageObject</failure><system-err>Undefined default URL for page object PageObject
+co.edu.udea.calidad.pruebas_automatizacion.stepdefinitions.AgregarProductoStepDefinition.queEstoyEnLaPáginaPrincipalDeLaTienda(AgregarProductoStepDefinition.java:41)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase></testsuite>

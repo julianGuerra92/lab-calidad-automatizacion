@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Agregar items al carrito de compras" tests="4" skipped="0" failures="3" errors="0" timestamp="2025-07-02T04:28:35.076Z" hostname="fedora" time="13.584">
+  <properties/>
+  <testcase name="Agregar un producto al carrito" classname="Agregar items al carrito de compras" time="9.933"/>
+  <testcase name="Agregar unidades negativas al carrito" classname="Agregar items al carrito de compras" time="1.175">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'identifico un producto que deseo comprar' and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;identifico un producto que deseo comprar&quot;)&#10;public void identificoUnProductoQueDeseoComprar() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;ingreso al detalle del producto&quot;)&#10;public void ingresoAlDetalleDelProducto() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;incremento a {int} unidades del producto&quot;)&#10;public void incrementoAUnidadesDelProducto(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;no debería poder agregar el producto al carrito de compras&quot;)&#10;public void noDeberíaPoderAgregarElProductoAlCarritoDeCompras() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'identifico un producto que deseo comprar' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;identifico un producto que deseo comprar&quot;)
+public void identificoUnProductoQueDeseoComprar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;ingreso al detalle del producto&quot;)
+public void ingresoAlDetalleDelProducto() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;incremento a {int} unidades del producto&quot;)
+public void incrementoAUnidadesDelProducto(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;no debería poder agregar el producto al carrito de compras&quot;)
+public void noDeberíaPoderAgregarElProductoAlCarritoDeCompras() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <testcase name="Verificar el total del carrito" classname="Agregar items al carrito de compras" time="1.1">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'identifico un producto que deseo comprar' and 3 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;identifico un producto que deseo comprar&quot;)&#10;public void identificoUnProductoQueDeseoComprar() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;ingreso al detalle del producto&quot;)&#10;public void ingresoAlDetalleDelProducto() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@When(&quot;incremento hasta {int} unidades del producto&quot;)&#10;public void incrementoHastaUnidadesDelProducto(Integer int1) {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;el total del carrito debería reflejar la suma total de los precios de los productos&quot;)&#10;public void elTotalDelCarritoDeberíaReflejarLaSumaTotalDeLosPreciosDeLosProductos() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'identifico un producto que deseo comprar' and 3 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;identifico un producto que deseo comprar&quot;)
+public void identificoUnProductoQueDeseoComprar() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;ingreso al detalle del producto&quot;)
+public void ingresoAlDetalleDelProducto() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When(&quot;incremento hasta {int} unidades del producto&quot;)
+public void incrementoHastaUnidadesDelProducto(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el total del carrito debería reflejar la suma total de los precios de los productos&quot;)
+public void elTotalDelCarritoDeberíaReflejarLaSumaTotalDeLosPreciosDeLosProductos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <testcase name="Verificar el total del carrito vacío" classname="Agregar items al carrito de compras" time="1.375">
+    <failure message="io.cucumber.junit.UndefinedStepException: The step 'no agrego ningún producto al carrito de compras' and 1 other step(s) are undefined.&#10;You can implement these steps using the snippet(s) below:&#10;&#10;@When(&quot;no agrego ningún producto al carrito de compras&quot;)&#10;public void noAgregoNingúnProductoAlCarritoDeCompras() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;@Then(&quot;el total del carrito debería ser cero&quot;)&#10;public void elTotalDelCarritoDeberíaSerCero() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step 'no agrego ningún producto al carrito de compras' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;no agrego ningún producto al carrito de compras&quot;)
+public void noAgregoNingúnProductoAlCarritoDeCompras() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;el total del carrito debería ser cero&quot;)
+public void elTotalDelCarritoDeberíaSerCero() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</failure>
+  </testcase>
+  <system-out><![CDATA[Texto del producto en el carrito: Blue Top
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Agregar un producto al carrito(agregar-items-al-carrito-de-compras;agregar-un-producto-al-carrito)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
+Jul 01, 2025 11:28:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 138
+Jul 01, 2025 11:28:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Agregar un producto al carrito
+----------------------------------------------------------------------?[0m
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Agregar unidades negativas al carrito(agregar-items-al-carrito-de-compras;agregar-unidades-negativas-al-carrito)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[96m
+  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
+ |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
+   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
+   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+
+Agregar unidades negativas al carrito
+-----------------------------------------------------------------------------?[0m
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Verificar el total del carrito(agregar-items-al-carrito-de-compras;verificar-el-total-del-carrito)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[96m
+  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
+ |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
+   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
+   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+
+Verificar el total del carrito
+-----------------------------------------------------------------------------?[0m
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Verificar el total del carrito vacío(agregar-items-al-carrito-de-compras;verificar-el-total-del-carrito-vacío)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[96m
+  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
+ |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
+   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
+   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+
+Verificar el total del carrito vacío
+-----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
