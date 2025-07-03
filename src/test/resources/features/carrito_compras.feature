@@ -14,20 +14,18 @@ Feature: Agregar items al carrito de compras
 
     Scenario: Agregar unidades negativas al carrito
         Given que estoy en la página principal de la tienda
-        When identifico un producto que deseo comprar
-        And ingreso al detalle del producto
-        And incremento a -2 unidades del producto
+        When identifico el primero producto del listado
+        And dentro del detalle del producto agrego -2 unidades al carrito
         Then no debería poder agregar el producto al carrito de compras
 
     Scenario: Verificar el total del carrito
         Given que estoy en la página principal de la tienda
-        When identifico un producto que deseo comprar
-        And ingreso al detalle del producto
-        And incremento hasta 3 unidades del producto
-        And lo agrego al carrito de compras
+        When identifico el primero producto del listado
+        And dentro del detalle del producto agregoo 3 unidades al carrito
+        And al ingresar al carrito de compras
         Then el total del carrito debería reflejar la suma total de los precios de los productos
 
     Scenario: Verificar el total del carrito vacío
         Given que estoy en la página principal de la tienda
-        When no agrego ningún producto al carrito de compras
-        Then el total del carrito debería ser cero
+        When ingreso al carrito de compras sin agregar productos
+        Then el carrito debería estar vacío

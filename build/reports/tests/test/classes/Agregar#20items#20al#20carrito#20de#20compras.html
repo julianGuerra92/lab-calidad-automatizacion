@@ -29,7 +29,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">3</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">13.583s</div>
+<div class="counter">15.380s</div>
 <p>duration</p>
 </div>
 </td>
@@ -51,7 +51,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">25%</div>
+<div class="percent">75%</div>
 <p>successful</p>
 </div>
 </td>
@@ -79,82 +79,14 @@
 <a name="Agregar unidades negativas al carrito"></a>
 <h3 class="failures">Agregar unidades negativas al carrito</h3>
 <span class="code">
-<pre>io.cucumber.junit.UndefinedStepException: The step 'identifico un producto que deseo comprar' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@When(&quot;identifico un producto que deseo comprar&quot;)
-public void identificoUnProductoQueDeseoComprar() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;ingreso al detalle del producto&quot;)
-public void ingresoAlDetalleDelProducto() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;incremento a {int} unidades del producto&quot;)
-public void incrementoAUnidadesDelProducto(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;no debería poder agregar el producto al carrito de compras&quot;)
-public void noDeberíaPoderAgregarElProductoAlCarritoDeCompras() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Verificar el total del carrito"></a>
-<h3 class="failures">Verificar el total del carrito</h3>
-<span class="code">
-<pre>io.cucumber.junit.UndefinedStepException: The step 'identifico un producto que deseo comprar' and 3 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@When(&quot;identifico un producto que deseo comprar&quot;)
-public void identificoUnProductoQueDeseoComprar() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;ingreso al detalle del producto&quot;)
-public void ingresoAlDetalleDelProducto() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@When(&quot;incremento hasta {int} unidades del producto&quot;)
-public void incrementoHastaUnidadesDelProducto(Integer int1) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;el total del carrito debería reflejar la suma total de los precios de los productos&quot;)
-public void elTotalDelCarritoDeberíaReflejarLaSumaTotalDeLosPreciosDeLosProductos() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
-</pre>
-</span>
-</div>
-<div class="test">
-<a name="Verificar el total del carrito vacío"></a>
-<h3 class="failures">Verificar el total del carrito vacío</h3>
-<span class="code">
-<pre>io.cucumber.junit.UndefinedStepException: The step 'no agrego ningún producto al carrito de compras' and 1 other step(s) are undefined.
-You can implement these steps using the snippet(s) below:
-
-@When(&quot;no agrego ningún producto al carrito de compras&quot;)
-public void noAgregoNingúnProductoAlCarritoDeCompras() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;el total del carrito debería ser cero&quot;)
-public void elTotalDelCarritoDeberíaSerCero() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-
+<pre>java.lang.AssertionError: 
+Expected: &lt;false&gt;
+     but: was &lt;true&gt;
+	at net.serenitybdd.screenplay.ErrorTally.throwSummaryExceptionFrom(ErrorTally.java:38)
+	at net.serenitybdd.screenplay.ErrorTally.reportAnyErrors(ErrorTally.java:32)
+	at net.serenitybdd.screenplay.Actor.should(Actor.java:397)
+	at co.edu.udea.calidad.pruebas_automatizacion.stepdefinitions.AgregarUnidadesNegativasStepDefinition.elProductoNoDeberaPoderAgregarseAlCarrito(AgregarUnidadesNegativasStepDefinition.java:42)
+	at ✽.no debería poder agregar el producto al carrito de compras(file:///home/julianrodriguez/Documents/2.%20Universidad/Calidad%20de%20Software/lab-calidad-automatizacion/src/test/resources/features/carrito_compras.feature:19)
 </pre>
 </span>
 </div>
@@ -171,30 +103,33 @@ public void elTotalDelCarritoDeberíaSerCero() {
 </thead>
 <tr>
 <td class="success">Agregar un producto al carrito</td>
-<td class="success">9.933s</td>
+<td class="success">6.455s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">Agregar unidades negativas al carrito</td>
-<td class="failures">1.175s</td>
+<td class="failures">3.197s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
-<td class="failures">Verificar el total del carrito</td>
-<td class="failures">1.100s</td>
-<td class="failures">failed</td>
+<td class="success">Verificar el total del carrito</td>
+<td class="success">3.612s</td>
+<td class="success">passed</td>
 </tr>
 <tr>
-<td class="failures">Verificar el total del carrito vacío</td>
-<td class="failures">1.375s</td>
-<td class="failures">failed</td>
+<td class="success">Verificar el total del carrito vacío</td>
+<td class="success">2.116s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>Texto del producto en el carrito: Blue Top
+<pre>Actual text: Blue Top
+Actual text: Added!
+Actual text: Rs. 1000
+Actual text: Cart is empty!
 </pre>
 </span>
 </div>
@@ -211,10 +146,10 @@ Agregar un producto al carrito(agregar-items-al-carrito-de-compras;agregar-un-pr
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-Jul 01, 2025 11:28:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 02, 2025 9:21:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 138
-Jul 01, 2025 11:28:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.49. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 02, 2025 9:21:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.92. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version (&quot;v86&quot;) matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
@@ -231,14 +166,16 @@ Agregar un producto al carrito
 
 Agregar unidades negativas al carrito(agregar-items-al-carrito-de-compras;agregar-unidades-negativas-al-carrito)
 --------------------------------------------------------------------------------
-[Test worker] INFO  - ?[96m
-  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
- |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
-   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
-   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+[Test worker] ERROR  - ?[91m
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
 
 Agregar unidades negativas al carrito
------------------------------------------------------------------------------?[0m
+-----------------------------------------------------------------------?[0m
+[Test worker] ERROR  - ?[91m    Test failed at step: Then text validation should be (false)?[0m
+[Test worker] ERROR  - ?[91m    Expected: &lt;false&gt; but: was &lt;true&gt;?[0m
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
@@ -247,14 +184,14 @@ Agregar unidades negativas al carrito
 
 Verificar el total del carrito(agregar-items-al-carrito-de-compras;verificar-el-total-del-carrito)
 --------------------------------------------------------------------------------
-[Test worker] INFO  - ?[96m
-  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
- |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
-   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
-   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
 Verificar el total del carrito
------------------------------------------------------------------------------?[0m
+----------------------------------------------------------------------?[0m
 [Test worker] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
@@ -263,14 +200,14 @@ Verificar el total del carrito
 
 Verificar el total del carrito vacío(agregar-items-al-carrito-de-compras;verificar-el-total-del-carrito-vacío)
 --------------------------------------------------------------------------------
-[Test worker] INFO  - ?[96m
-  _____   ___   ___   _____     ___   ___   _  _   ___    ___   _  _    ___ 
- |_   _| | __| / __| |_   _|   | _ \ | __| | \| | |   \  |_ _| | \| |  / __|
-   | |   | _|  \__ \   | |     |  _/ | _|  | .` | | |) |  | |  | .` | | (_ |
-   |_|   |___| |___/   |_|     |_|   |___| |_|\_| |___/  |___| |_|\_|  \___|
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
 
 Verificar el total del carrito vacío
------------------------------------------------------------------------------?[0m
+----------------------------------------------------------------------?[0m
 </pre>
 </span>
 </div>
@@ -282,7 +219,7 @@ Verificar el total del carrito vacío
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="https://www.gradle.org">Gradle 8.13</a> at Jul 1, 2025, 11:28:49 PM</p>
+<a href="https://www.gradle.org">Gradle 8.13</a> at Jul 2, 2025, 9:21:55 PM</p>
 </div>
 </div>
 </body>

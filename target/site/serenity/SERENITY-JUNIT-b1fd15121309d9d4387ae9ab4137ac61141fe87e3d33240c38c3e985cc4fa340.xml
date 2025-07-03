@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Agregar items al carrito de compras" skipped="3" tests="4" time="7.34" timestamp="2025-07-01 11:28:35"><testcase name="Agregar un producto al carrito"/><testcase name="Agregar unidades negativas al carrito"><skipped/></testcase><testcase name="Verificar el total del carrito"><skipped/></testcase><testcase name="Verificar el total del carrito vacío"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Agregar items al carrito de compras" skipped="0" tests="4" time="7.59" timestamp="2025-07-02 09:21:39"><testcase name="Agregar un producto al carrito"/><testcase name="Agregar unidades negativas al carrito"><failure message="&#10;Expected: &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
+Expected: &lt;false&gt;
+     but: was &lt;true&gt;</failure><system-err>
+Expected: &lt;false&gt;
+     but: was &lt;true&gt;
+co.edu.udea.calidad.pruebas_automatizacion.stepdefinitions.AgregarUnidadesNegativasStepDefinition.elProductoNoDeberaPoderAgregarseAlCarrito(AgregarUnidadesNegativasStepDefinition.java:42)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</system-err></testcase><testcase name="Verificar el total del carrito"/><testcase name="Verificar el total del carrito vacío"/></testsuite>
