@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Agregar items al carrito de compras" tests="4" skipped="0" failures="1" errors="0" timestamp="2025-07-03T02:21:39.756Z" hostname="fedora" time="15.382">
+<testsuite name="Agregar items al carrito de compras" tests="4" skipped="0" failures="1" errors="0" timestamp="2025-07-09T11:14:07.161Z" hostname="fedora" time="16.253">
   <properties/>
-  <testcase name="Agregar un producto al carrito" classname="Agregar items al carrito de compras" time="6.455"/>
-  <testcase name="Agregar unidades negativas al carrito" classname="Agregar items al carrito de compras" time="3.197">
+  <testcase name="Agregar un producto al carrito" classname="Agregar items al carrito de compras" time="6.193"/>
+  <testcase name="Agregar unidades negativas al carrito" classname="Agregar items al carrito de compras" time="3.677">
     <failure message="java.lang.AssertionError: &#10;Expected: &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
 Expected: &lt;false&gt;
      but: was &lt;true&gt;
@@ -13,8 +13,8 @@ Expected: &lt;false&gt;
 	at ✽.no debería poder agregar el producto al carrito de compras(file:///home/julianrodriguez/Documents/2.%20Universidad/Calidad%20de%20Software/lab-calidad-automatizacion/src/test/resources/features/carrito_compras.feature:19)
 </failure>
   </testcase>
-  <testcase name="Verificar el total del carrito" classname="Agregar items al carrito de compras" time="3.612"/>
-  <testcase name="Verificar el total del carrito vacío" classname="Agregar items al carrito de compras" time="2.116"/>
+  <testcase name="Verificar el total del carrito" classname="Agregar items al carrito de compras" time="4.113"/>
+  <testcase name="Verificar el total del carrito vacío" classname="Agregar items al carrito de compras" time="2.269"/>
   <system-out><![CDATA[Actual text: Blue Top
 Actual text: Added!
 Actual text: Rs. 1000
@@ -30,10 +30,10 @@ Agregar un producto al carrito(agregar-items-al-carrito-de-compras;agregar-un-pr
 --------------------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors, \n                   --disa..., --disable-default-apps, --disable-extensions-file-a..., \n                   --inco..., --disable-infobars,--disabl..., --remote-allow-origins=*], extensions: []}}
-Jul 02, 2025 9:21:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 09, 2025 6:14:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 138
-Jul 02, 2025 9:21:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 138.0.7204.92. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Jul 09, 2025 6:14:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 138.0.7204.100. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.16.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 [Test worker] INFO  - ?[92m
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 

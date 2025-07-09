@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Agregar items al carrito de compras" skipped="0" tests="4" time="7.59" timestamp="2025-07-02 09:21:39"><testcase name="Agregar un producto al carrito"/><testcase name="Agregar unidades negativas al carrito"><failure message="&#10;Expected: &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Agregar items al carrito de compras" skipped="0" tests="4" time="8.32" timestamp="2025-07-09 06:14:07"><testcase name="Agregar un producto al carrito"/><testcase name="Agregar unidades negativas al carrito"><failure message="&#10;Expected: &lt;false&gt;&#10;     but: was &lt;true&gt;" type="java.lang.AssertionError">
 Expected: &lt;false&gt;
      but: was &lt;true&gt;</failure><system-err>
 Expected: &lt;false&gt;
